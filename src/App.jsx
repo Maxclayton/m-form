@@ -4,7 +4,7 @@ import './App.css';
 import { motion } from "framer-motion";
 
 function App() {
-  const changingTexts = ['cool', 'great', 'the best'];
+  const changingTexts = ['cool', 'great', 'fun'];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
