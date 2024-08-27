@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex(prevIndex => (prevIndex + 1) % changingTexts.length);
-    }, 3000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [changingTexts.length]);
@@ -48,7 +48,7 @@ function App() {
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: 50 }}
-              transition={{ duration: 0.25 }}
+              transition={{ duration: 0.3 }}
             >
               {changingTexts[currentIndex]}
             </motion.div>
