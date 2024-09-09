@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,100&display=swap');
 
-
 #root {
-  max-width: 1280px;
   margin: 0 auto;
+  max-width: 1280px;
   padding: 2rem;
   text-align: center;
 }
 
 .logo-img {
   border-radius: 100%;
-  transition: .5s;
   cursor: pointer;
+  transition: .5s;
 }
 
 .logo-img:hover {
-  box-shadow: 1px 10px 138px 5px rgba(18, 42, 171, 0.75);
-  -webkit-box-shadow: 1px 10px 138px 5px rgba(18, 42, 171, 0.75);
   -moz-box-shadow: 1px 10px 138px 5px rgba(18, 42, 171, 0.75);
+  -webkit-box-shadow: 1px 10px 138px 5px rgba(18, 42, 171, 0.75);
+  box-shadow: 1px 10px 138px 5px rgba(18, 42, 171, 0.75);
 }
 
 .hero-img {
@@ -27,8 +26,8 @@
 .app-container {
   background-color: white;
   border-radius: 20px;
-  padding: 35px;
   height: 800px;
+  padding: 35px;
 }
 
 h1 {
@@ -39,20 +38,20 @@ h1 {
 
 .changing-text {
   color: #57bfe3;
+  display: flex;
   font-size: 51.2px;
   font-weight: 700;
-  width: 124px;
-  display: flex;
   margin-top: -5px;
+  width: 124px;
 }
 
 .headline {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   gap: 8px;
   height: 80px;
+  justify-content: center;
 }
 
 @media screen and (max-width: 900px) {
@@ -63,16 +62,13 @@ h1 {
   .hero-img {
     width: 250px;
   }
-
-
 h1 {
   font-size: 30px;
 }
 
 .changing-text {
   font-size: 30px;
-  margin-top: 0px; 
-   width: auto;
-
+  margin-top: 0px;
+  width: auto;
 }
 }
